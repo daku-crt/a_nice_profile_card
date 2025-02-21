@@ -15,6 +15,7 @@ li {
   list-style: none;
 }
 .container {
+  padding: 16px;
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
@@ -22,23 +23,26 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #070d1f;
 }
 @media (max-width: 767px) {
   .container {
-    max-width: 70%;
+    max-width: 90%;
+    background-color: #070d1f;
+    padding: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
-    max-width: 80%;
+    max-width: 95%;
   }
 }
 header {
   padding-bottom: 24px;
 }
 header img {
-  max-width: 175px;
-  max-height: 175px;
+  max-width: 200px;
+  max-height: 200px;
   filter: brightness(70%);
 }
 header .profile-pic {
